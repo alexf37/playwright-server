@@ -1,15 +1,15 @@
-# Elysia with Bun runtime
+# Playwright Server
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
+As always, run `bun install` to install the dependencies. You will also need to run `bun install-browser` to install the Chromium binary.
 
-## Development
 To start the development server run:
+
 ```bash
 bun run dev
 ```
 
-Open http://localhost:3000/ with your browser to see the result.
+To start the production server run:
+
+```bash
+bun run start
+```
